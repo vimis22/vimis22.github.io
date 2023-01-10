@@ -16,6 +16,7 @@ body{
 
 
 .container {
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     gap: 35px;
@@ -24,6 +25,7 @@ body{
 }
 
 .box {
+    border-radius: 30px;
     width: 80%;
     background-color: #6f00ff;
     color: white;
