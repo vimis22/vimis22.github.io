@@ -1,1 +1,1 @@
-# vimis22 Hjemme side til Universitets noter
+# vimis22 Hjemmeside til SDU-Universitets Noter.
