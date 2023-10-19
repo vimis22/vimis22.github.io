@@ -2,48 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>vimis22/3_semester</title>
-    <link rel="stylesheet" href="mystyle.css">
+    <title>vimis22/semester3</title>
+    <link rel="stylesheet" href="minstyle.css">
 </head>
-
 <body>
-<div id="SDU">
-  <div id="SDU-Title" >
-    Syddansk Universitet SDU - Software Engineering
-  </div>
-  <a href="index.html">Tilbage til Forsiden</a>
+
+<div>
+    <div id="box">
+        <div id="buttonbox">
+            <a id="click_hide" href="index.html">
+                <img id="logo" src="vimis22.png" >
+            </a>
+            <button onclick="window.location.href='about.html'" id="mainmenu_buttons">
+                ABOUT
+            </button>
+
+            <button onclick="window.location.href='semester&tasks.html'" id="mainmenu_buttons">
+                SEMESTER & TASKS
+            </button>
+
+            <button onclick="window.location.href='contact.html'" id="mainmenu_buttons">
+                CONTACT
+            </button>
+            <button onclick="window.location.href='semester&tasks.html'" id="mainmenu_buttons">
+                BACK
+            </button>
+        </div>
+    </div>
 </div>
 
 <div>
-    <h1 style="text-align: center; background-color: rgb(255, 0, 111); color:white; font-family: Baskerville Old Face">3. Semester 2023</h1>
-    <div class="container">
-        <p> I denne side, er der inkluderet fag fra 3. Semester i 2023.
+    <p id="title">Welcome to 3rd Semester</p>
+    <div class="subjects_rounded_corners">
+        <button id="subjectbuttons" onclick="window.location.href='web_technologies.html'" id="mainmenu_buttons">
+            WEB
+        </button>
     </div>
-
-    <div class = "container">
-         <div class = "box">
-    <h2>Interactions Design </h2>
-    <a href="interactions_design" style = "color: white;"> Link til Fagsiden i Interactions Design</a>
+    <div class="subjects_rounded_corners">
+        <button id="subjectbuttons" onclick="window.location.href='interactions_design.html'" id="mainmenu_buttons">
+            IDE
+        </button>
     </div>
-
-     <div class = "container">
-         <div class = "box">
-     <h2>Web Technologies</h2>
-     <a href="web_technologies" style = "color: white;"> Link til Fagsiden i Web Technologies</a>
-     </div>
-
-     <div class = "container">
-          <div class = "box">
-     <h2>Calculus og Lineære Algebra</h2>
-     <a href="calculus_linear_algebra" style = "color: white;"> Link til Fagsiden i Calculus og Lineære Algebra</a>
-     </div>
-
-     <div class = "container">
-         <div class = "box">
-     <h2>Operating Systems and Distributing Systems</h2>
-     <a href="operating_distributing_systems" style = "color: white;"> Link til Fagsiden i Operating Systems and Distributing Systems</a>
-     </div>
-
+    <div class="subjects_rounded_corners">
+        <button id="subjectbuttons" onclick="window.location.href='operative_and_distributive_systems.html'" id="mainmenu_buttons">
+            ODS
+        </button>
+    </div>
 </div>
 
 </body>

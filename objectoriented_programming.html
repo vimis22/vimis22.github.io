@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>vimis22/computersystems</title>
-  <link rel="stylesheet" href="mystyle.css">
+    <meta charset="UTF-8">
+    <title>vimis22/oop</title>
+    <link rel="stylesheet" href="minstyle.css">
 </head>
-
 <body>
-<div id="SDU">
-  <div id="SDU-Title" >
-    Syddansk Universitet SDU - Software Engineering
-  </div>
-  <a href="1_semester.html">Tilbage til Menuen</a>
+<div>
+    <div id="box">
+        <div id="buttonbox">
+            <a href="index.html">
+                <img id="logo" src="vimis22.png" >
+            </a>
+            <button onclick="window.location.href='about.html'" id="mainmenu_buttons">
+                ABOUT
+            </button>
+
+            <button onclick="window.location.href='semester&tasks.html'" id="mainmenu_buttons">
+                SEMESTER & TASKS
+            </button>
+
+            <button onclick="window.location.href='contact.html'" id="mainmenu_buttons">
+                CONTACT
+            </button>
+            <button onclick="window.location.href='1_semester.html'" id="mainmenu_buttons">
+                BACK
+            </button>
+        </div>
+    </div>
 </div>
 
-<div>
-  <h1 style="text-align: center; background-color: rgb(255, 0, 111); color:white; font-family: Baskerville Old Face">Objektorienteret Programmering</h1>
-  <div class="container">
-    <p>I denne webside er der lagt Præsentation over de ting som er gennemgået i Undervisningen.</p>
-    <p>Præsentationerne er taget fra mine noter i Undervisningen og forsøger at gengive overblik over hvordan
-      tingene er på en teoretisk måde :)</p>
-  </div>
-
-  <div class="container">
-    <div class="box">
-      <h2>Præsentation over Begreberne</h2>
-      <a href="Objektorienteret_Programmering/Præsentation%20af%20Objektorienteret%20Programmering%20Noter.pdf" style="color:white;">Linket Til Præsentations Noter fra Undervisning</a>
-    </div>
+<div id="exercisetasks">
+    <h2>Notes from Objectoriented Programming</h2>
+    <a>Link to Notes!</a>
+</div>
 
 </body>
 </html>

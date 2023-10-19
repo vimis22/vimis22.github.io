@@ -1,54 +1,45 @@
 <!DOCTYPE html>
-<html xmlns:color="http://www.w3.org/1999/xhtml">
-
-<head>
+<html>
+  
+  <head>
     <meta charset="utf-8">
-    <title>vimis22.github.io</title>
-    <link rel="stylesheet" href="mystyle.css">
-    
-</head>
+    <title>vimis22/mainpage</title>
+    <link rel="stylesheet" href="minstyle.css">
+  </head>
 
-<body>
-<div id="SDU" href="about.html">
-    <div id="SDU-Title">
-        Syddansk Universitet SDU - Software Engineering
-    </div>
-    <a href="about.html">Om denne webside</a>
-</div>
+  <body>
+    <div>
+      <div id="box">
+        <div>
+          <a id="click_hide" href="index.html">
+            <img id="logo" src="vimis22.png" >
+          </a>
 
-<marquee direction="left"
-         behaviour="alternate"
-         style="border: #32CD32 2px SOLID">
-        | Opgaverne er på nuværende tidspunkt ved at blive lagt ind.
-        | Websiden bliver opdateret, efter noget tid når de gennemgåede emner og opgaver er løst færdigt.
-        | Du kan bruge denne webside som hjælp, hvis du føler at du har svært med et specifikt fag.
-        | Har du spørgsmål? - Kontakt Venligst: vimis22@student.sdu.dk.
-</marquee>
+          <button onclick="window.location.href='about.html'" id="mainmenu_buttons">
+            ABOUT
+          </button>
 
+          <button onclick="window.location.href='semester&tasks.html'" id="mainmenu_buttons">
+            SEMESTER & TASKS
+          </button>
 
-    <div class="container">
-        <div class="box">
-            <h2>1. Semester</h2>
-            <a href="x.html" style="color: white"; > Linket til Fagene fra 1. Semester</a>
+          <button onclick="window.location.href='contact.html'" id="mainmenu_buttons">
+            CONTACT
+          </button>
         </div>
-
-        <div class="box">
-            <h2>2. Semester</h2>
-            <a href="x.html" style="color: white"; > Linket til Fagene fra 2. Semester</a>
-        </div>
-
-        <div class="box">
-            <h2>3. Semester</h2>
-            <a href="3_semester.html" style="color: white"; >Linket til Fagene fra 3. Semester</a>
-        </div>
-
-        <div class="box1">
-            <h2>Instruktørfag</h2>
-            <a href="instructorship.html" style="color: black"; >Link-til Siden</a>
-        </div>
-
-
+      </div>
     </div>
 
-</body>
+    <marquee id="news_text">
+      Welcome to the new version of vimis22.github.io. We hope, that you like the new interface of the website :)  If not, then it's your problem.
+    </marquee>
+
+    <p id="title" > Velkommen til vimis22.0! </p>
+    <a id="click_hide" href="index.html">
+      <img id="logoframe" src="vimis22.png">
+    </a>
+
+
+
+  </body>
 </html>
