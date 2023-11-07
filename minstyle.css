@@ -22,10 +22,12 @@ body {
     color: white;
   }
 
-  /*
+.content_placement{
+  text-align: center;
+  align-items: center;
+  display: flex;
   flex-direction: row;
-    align-self: center;
-   */
+}
 
   #mainmenu_buttons {
     text-align: center;
