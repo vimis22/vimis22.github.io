@@ -11,7 +11,7 @@ export default function App() {
   // initialize theme from localStorage and apply styles
   useTheme()
   return (
-    <div className="themeBack">
+    <div>
       <Navbar />
       <Routes>
         <Route path="/" element={<MainPage />} />

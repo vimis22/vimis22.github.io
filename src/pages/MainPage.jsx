@@ -9,12 +9,12 @@ export default function MainPage() {
     <>
       <marquee className="marquee">Notes have been updated, the website will be disabled during the final exams</marquee>
 
-      <section>
+      <section className="main-content">
         <div className="welcometext_frame">
-          <h1 className="themeText">Welcome to vimis22.github.io</h1>
-          <p className="themeText">Please access tasks from different semesters subjects, by clicking on the number-palettes.</p>
+          <h1>Welcome to vimis22.github.io</h1>
+          <p>Please access tasks from different semesters subjects, by clicking on the number-palettes.</p>
           <div className="deadline_box">
-            <p className="themeText">Pages closes on the 31st of December 2025, before all Exams.</p>
+            <p>Pages closes on the 31st of December 2025, before all Exams.</p>
             <Countdown deadline="2025-12-31" />
           </div>
         </div>

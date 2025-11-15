@@ -37,8 +37,8 @@ export default function useTheme() {
     if (theme[0] !== 'default' && theme[1] !== 'default') {
       applyTheme(theme)
     } else {
-      // default: dark like original cookies_read fallback
-      activateTheme('dark')
+      // default: light to ensure global white background and dark text by default
+      activateTheme('light')
     }
   }, [theme, applyTheme, activateTheme])
 
