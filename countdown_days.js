@@ -1,5 +1,5 @@
 //Counting Down Days
-const deadline = new Date('2025-08-01')
+const deadline = new Date('2025-12-31')
 
 const today = new Date();
 
