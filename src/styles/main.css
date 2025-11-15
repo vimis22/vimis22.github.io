@@ -24,6 +24,13 @@ html, body {
     padding: 10px 0 0 10px;
 }
 
+/* New header logo class to match old look/size */
+.header-logo {
+    height: 50px;
+    margin: 0;
+    padding: 10px 0 0 10px;
+}
+
 .navbarbutton_frame{
     margin-left: 15px;
     margin-top: 10px;

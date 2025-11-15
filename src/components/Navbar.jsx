@@ -6,11 +6,10 @@ export default function Navbar() {
     <nav className="navbar content_placement">
       <div>
         <Link to="/">
-          <img className="logoframe" src="/vimis22.png" alt="logo" />
+          <img className="header-logo" src="/vimis22.png" alt="VIMIS logo" />
         </Link>
       </div>
       <div className="navbarbutton_frame">
-        <Link to="/quiz" className="navbar_buttons custom-button">QUIZ</Link>
         <Link to="/about" className="navbar_buttons custom-button">About & Contact</Link>
       </div>
     </nav>
