@@ -5,7 +5,7 @@ export default function About() {
     <>
       <marquee className="marquee">This website is under renovation construction.</marquee>
 
-      <section>
+      <section className="main-content">
         <div className="welcometext_frame">
           <h1 className="themeText">About & Contacts</h1>
           <p className="themeText">

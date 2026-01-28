@@ -10,9 +10,9 @@ function SemesterContent({ id }) {
           <p className="themeText">Please visit a Subject.</p>
         </div>
         <section className="semesterframe quizframe">
-          <a href="#" className="subject custom-button">Computer Science</a>
-          <a href="#" className="subject custom-button">Statistical Data Analyze</a>
-          <a href="#" className="subject custom-button">Objectoriented Programming</a>
+          <a href="#" className="subject">Computer Science</a>
+          <a href="#" className="subject">Statistical Data Analyze</a>
+          <a href="#" className="subject">Objectoriented Programming</a>
         </section>
       </>
     )
@@ -25,9 +25,9 @@ function SemesterContent({ id }) {
           <p className="themeText">Please visit a Subject.</p>
         </div>
         <section className="semesterframe quizframe">
-          <a href="#" className="subject custom-button">Algorithms & Data Structures</a>
-          <a href="#" className="subject custom-button">Discrete Mathematics</a>
-          <a href="#" className="subject custom-button">Calculus & Linear Algebra</a>
+          <a href="#" className="subject">Algorithms & Data Structures</a>
+          <a href="#" className="subject">Discrete Mathematics</a>
+          <a href="#" className="subject">Calculus & Linear Algebra</a>
         </section>
       </>
     )
@@ -45,7 +45,9 @@ export default function Semester() {
   return (
     <>
       <marquee className="marquee">This website is under renovation construction.</marquee>
-      <SemesterContent id={id} />
+      <section className="main-content">
+        <SemesterContent id={id} />
+      </section>
     </>
   )
 }

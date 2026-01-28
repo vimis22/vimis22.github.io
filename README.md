@@ -1,6 +1,9 @@
 vimis22-react (Vite + React)
 
 This is a simple React port of your static site, prepared for GitHub Pages.
+Commands for Developing the Program:
+npm install
+npm run dev
 
 Prerequisites
 - Node.js 18+ and npm

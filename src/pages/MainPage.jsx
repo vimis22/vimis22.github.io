@@ -19,12 +19,12 @@ export default function MainPage() {
           </div>
         </div>
         <div className="semesterframe">
-          <button onClick={goSemester(1)} className="mainpage_semesterbuttons custom-button">1</button>
-          <button onClick={goSemester(2)} className="mainpage_semesterbuttons custom-button">2</button>
-          <button onClick={goSemester(3)} className="mainpage_semesterbuttons custom-button">3</button>
-          <button onClick={goSemester(4)} className="mainpage_semesterbuttons custom-button">4</button>
-          <button onClick={goSemester(5)} className="mainpage_semesterbuttons custom-button">5</button>
-          <button onClick={goSemester(6)} className="mainpage_semesterbuttons custom-button">6</button>
+          <button onClick={goSemester(1)} className="mainpage_semesterbuttons">1</button>
+          <button onClick={goSemester(2)} className="mainpage_semesterbuttons">2</button>
+          <button onClick={goSemester(3)} className="mainpage_semesterbuttons">3</button>
+          <button onClick={goSemester(4)} className="mainpage_semesterbuttons">4</button>
+          <button onClick={goSemester(5)} className="mainpage_semesterbuttons">5</button>
+          <button onClick={goSemester(6)} className="mainpage_semesterbuttons">6</button>
         </div>
       </section>
     </>
