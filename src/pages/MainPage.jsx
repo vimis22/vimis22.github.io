@@ -14,8 +14,8 @@ export default function MainPage() {
           <h1>Welcome to vimis22.github.io</h1>
           <p>Please access tasks from different semesters subjects, by clicking on the number-palettes.</p>
           <div className="deadline_box">
-            <p>Pages closes on the 31st of December 2025, before all Exams.</p>
-            <Countdown deadline="2025-12-31" />
+            <p>Pages closes on the 1st of June 2026, before all Exams.</p>
+            <Countdown deadline="2026-06-01" />
           </div>
         </div>
         <div className="semesterframe">
