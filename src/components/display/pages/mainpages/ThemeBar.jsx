@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import useTheme from '../hooks/useTheme'
+import useTheme from '../../../../hooks/useTheme.js'
 
 export default function ThemeBar() {
   const { activateTheme, setTheme } = useTheme()

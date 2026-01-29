@@ -1,5 +1,5 @@
 import React from 'react'
-import useCountdown from '../hooks/useCountdown'
+import useCountdown from '../../hooks/useCountdown.js'
 
 export default function Countdown({ deadline = '2026-06-01' }) {
   const days = useCountdown(deadline)

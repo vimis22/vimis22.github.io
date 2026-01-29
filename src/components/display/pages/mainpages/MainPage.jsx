@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import Countdown from '../components/Countdown.jsx'
+import Countdown from '../../../functionality/Countdown.jsx'
 
 export default function MainPage() {
   const navigate = useNavigate()
