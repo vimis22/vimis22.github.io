@@ -2,10 +2,10 @@ import React from 'react';
 import NormalText from "../../../elements/NormalText.jsx";
 import LinkBox from "../../../elements/LinkBox.jsx";
 
-export default function Semester1() {
+export default function Semester3() {
     return (
         <div>
-            <h1>Semester 1</h1>
+            <h1>Semester 3</h1>
             <section className={"semesterframe"}>
                 <NormalText text="Semester 3" textsize="24px" textcolor="black" textHeight="auto" textWidth="auto" textBorder="none" textBorderWeight="1px"/>
                 <div>
