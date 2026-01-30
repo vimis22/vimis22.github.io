@@ -4,7 +4,7 @@ import LinkBox from "../../../elements/LinkBox.jsx";
 
 export default function Semester6() {
     return (
-        <div>
+        <div className="main-content">
             <h1>Semester 6</h1>
             <section className={"semesterframe"}>
                 <NormalText text="Semester 6" textsize="24px" textcolor="black" textHeight="auto" textWidth="auto" textBorder="none" textBorderWeight="1px"/>
