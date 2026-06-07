@@ -9,6 +9,8 @@ import Semester3 from './components/display/pages/semesterpages/Semester3.jsx'
 import Semester4 from './components/display/pages/semesterpages/Semester4.jsx'
 import Semester5 from './components/display/pages/semesterpages/Semester5.jsx'
 import Semester6 from './components/display/pages/semesterpages/Semester6.jsx'
+import Semester7 from './components/display/pages/semesterpages/Semester7.jsx'
+import Semester8 from './components/display/pages/semesterpages/Semester8.jsx'
 import About from './components/display/pages/mainpages/About.jsx'
 import SoftwareArchitecture from './components/display/pages/subjectpages/software_architecture.jsx'
 import Mathematics from './components/display/pages/subjectpages/mathematics.jsx'
@@ -45,6 +47,8 @@ export default function App() {
         <Route path="/semester/4" element={<Semester4 />} />
         <Route path="/semester/5" element={<Semester5 />} />
         <Route path="/semester/6" element={<Semester6 />} />
+        <Route path="/semester/7" element={<Semester7 />} />
+        <Route path="/semester/8" element={<Semester8 />} />
         <Route path="/about" element={<About />} />
         <Route path="/subject/software_architecture" element={<SoftwareArchitecture />} />
         <Route path="/subject/mathematics" element={<Mathematics />} />
