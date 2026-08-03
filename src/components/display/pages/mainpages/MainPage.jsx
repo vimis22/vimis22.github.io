@@ -27,6 +27,7 @@ export default function MainPage() {
           <button onClick={goSemester(6)} className="mainpage_semesterbuttons">6</button>
           <button onClick={goSemester(7)} className="mainpage_semesterbuttons">7</button>
           <button onClick={goSemester(8)} className="mainpage_semesterbuttons">8</button>
+          <button onClick={goSemester(9)} className="mainpage_semesterbuttons">9</button>
         </div>
       </section>
     </>
