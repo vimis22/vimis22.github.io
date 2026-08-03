@@ -6,7 +6,7 @@ export default function DataVisualization() {
         <div className="main-content">
             <section className={"semesterframe"}>
                 <h1>Data Visualization</h1>
-                <div className={"semesterframe-linkbox-container"}>
+                <div className="semester-linkbox-container">
                     <LinkBox text="Lecture 1" textsize="16px" textcolor="black" textHeight="auto" textWidth="auto" textBorder="none" textBorderWeight="1px" containerHeight="auto" containerWidth="auto" containerBorder="none" containerBorderWeight="1px" backgroundColor="white"/>
                     <LinkBox text="Lecture 2" textsize="16px" textcolor="black" textHeight="auto" textWidth="auto" textBorder="none" textBorderWeight="1px" containerHeight="auto" containerWidth="auto" containerBorder="none" containerBorderWeight="1px" backgroundColor="white"/>
                     <LinkBox text="Lecture 3" textsize="16px" textcolor="black" textHeight="auto" textWidth="auto" textBorder="none" textBorderWeight="1px" containerHeight="auto" containerWidth="auto" containerBorder="none" containerBorderWeight="1px" backgroundColor="white"/>
