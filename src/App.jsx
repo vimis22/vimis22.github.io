@@ -11,6 +11,7 @@ import Semester5 from './components/display/pages/semesterpages/Semester5.jsx'
 import Semester6 from './components/display/pages/semesterpages/Semester6.jsx'
 import Semester7 from './components/display/pages/semesterpages/Semester7.jsx'
 import Semester8 from './components/display/pages/semesterpages/Semester8.jsx'
+import Semester9 from './components/display/pages/semesterpages/Semester9.jsx'
 import About from './components/display/pages/mainpages/About.jsx'
 import SoftwareArchitecture from './components/display/pages/subjectpages/software_architecture.jsx'
 import Mathematics from './components/display/pages/subjectpages/mathematics.jsx'
@@ -18,6 +19,8 @@ import AdvancedProgramming from './components/display/pages/subjectpages/advance
 import Cybersecurity from './components/display/pages/subjectpages/cybersecurity.jsx'
 import HumanCenteredSoftware from './components/display/pages/subjectpages/human_centered_software.jsx'
 import ModelbasedSoftware from './components/display/pages/subjectpages/modelbased_software.jsx'
+import AdvancedInteractionDesign from './components/display/pages/subjectpages/advanced_interaction_design.jsx'
+import DataVisualization from './components/display/pages/subjectpages/data_visualization.jsx'
 import ScientificTheory from './components/display/pages/subjectpages/scientific_theory.jsx'
 import BigData from './components/display/pages/subjectpages/big_data.jsx'
 import Computersystems from './components/display/pages/subjectpages/computersystems.jsx'
@@ -49,6 +52,7 @@ export default function App() {
         <Route path="/semester/6" element={<Semester6 />} />
         <Route path="/semester/7" element={<Semester7 />} />
         <Route path="/semester/8" element={<Semester8 />} />
+        <Route path="/semester/9" element={<Semester9 />} />
         <Route path="/about" element={<About />} />
         <Route path="/subject/software_architecture" element={<SoftwareArchitecture />} />
         <Route path="/subject/mathematics" element={<Mathematics />} />
@@ -56,6 +60,8 @@ export default function App() {
         <Route path="/subject/cybersecurity" element={<Cybersecurity />} />
         <Route path="/subject/human_centered_software" element={<HumanCenteredSoftware />} />
         <Route path="/subject/modelbased_software" element={<ModelbasedSoftware />} />
+        <Route path="/subject/advanced_interaction_design" element={<AdvancedInteractionDesign />} />
+        <Route path="/subject/data_visualization" element={<DataVisualization />} />
         <Route path="/subject/scientific_theory" element={<ScientificTheory />} />
         <Route path="/subject/big_data" element={<BigData />} />
         <Route path="/subject/computersystems" element={<Computersystems />} />
